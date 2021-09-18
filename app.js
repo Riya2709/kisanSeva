@@ -11,7 +11,7 @@ const agri=require("./model/agriSchema");
 
 app.use(express.json());
 app.use(require("./router/auth"));
-const port=process.env.PORT ;
+const port=process.env.PORT || 8000;
 
 
 
